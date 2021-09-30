@@ -6,19 +6,26 @@
     "start": "next start"
   },
   "dependencies": {
-    "mobx": "^5.9.0",
-    "mobx-react": "^5.4.3",
-    "mobx-react-lite": "^2.0.7",
-    "mobx-state-tree": "^3.11.0",
+    "@project-serum/anchor": "^0.16.2",
+    "@solana/wallet-adapter-base": "^0.6.0",
+    "@solana/wallet-adapter-react": "^0.12.3",
+    "@solana/wallet-adapter-react-ui": "^0.5.0",
+    "@solana/wallet-adapter-wallets": "^0.10.0",
+    "@solana/web3.js": "^1.29.2",
+    "mobx": "^6.3.3",
+    "mobx-react": "^7.2.0",
+    "mobx-react-lite": "^3.2.1",
+    "mobx-state-tree": "^5.0.3",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "typescript": "^3.0.1"
+    "typescript": "^4.4.3"
   },
   "devDependencies": {
-    "@babel/core": "7.14.3",
-    "@babel/plugin-proposal-decorators": "^7.3.0",
-    "@types/node": "^14.0.23",
-    "@types/react": "^16.4.12"
-  }
+    "@babel/core": "7.15.5",
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "@types/node": "^16.10.2",
+    "@types/react": "^17.0.26"
+  },
+  "packageManager": "yarn@3.0.2"
 }
