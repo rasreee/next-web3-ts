@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "yarn lint --fix"
   },
   "dependencies": {
     "@project-serum/anchor": "^0.16.2",
@@ -15,7 +17,7 @@
     "mobx": "^6.3.3",
     "mobx-react": "^7.2.0",
     "mobx-state-tree": "^5.0.3",
-    "next": "latest",
+    "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.1",
@@ -25,8 +27,16 @@
     "@babel/core": "7.15.5",
     "@babel/plugin-proposal-decorators": "^7.15.4",
     "@types/node": "^16.10.2",
+    "@types/prettier": "^2",
     "@types/react": "^17.0.26",
-    "@types/styled-components": "^5.1.14"
+    "@types/styled-components": "^5.1.14",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.4.1"
   },
   "packageManager": "yarn@3.0.2"
 }
